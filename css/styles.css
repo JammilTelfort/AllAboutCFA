@@ -1,0 +1,135 @@
+/*This is the styles for Chick Fil A webpage*/
+
+
+@font-face{
+	font-family: Great Vibes;
+	src: url(../Fonts/great-vibes/GreatVibes.otf) format('opentype');
+}
+
+@font-face{
+	font-family: Alex Brush;
+	src: url(../Fonts/alex-brush/AlexBrush.ttf);
+}
+
+@font-face{
+	font-family: Amatic;
+	src: url(../Fonts/amatic/Amatic-Bold.ttf);
+}
+
+@font-face{
+	font-family: Lobster Two;
+	src: url(../Fonts/lobster-two/LobsterTwo-Regular.otf);
+}
+
+body{
+
+	background-color: red;
+	background-image: url(http://thestamp.umd.edu/portals/0/Images/Food/chickFilA.jpg);
+	margin: 0;
+}
+
+
+h1{
+	background-color: black;
+	font-family: Great Vibes, Helvetica, Arial, cursive;
+	text-align: center;
+	color: red;
+	text-shadow; white;
+	font-size: 100px;
+	padding-top: 0%;
+	padding-bottom: 0%;
+	margin: 0;
+	
+	
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+li{
+	font-family: Alex Brush, Helvetica, Arial, cursive;
+	color: crimson;
+	font-size: 3em;
+	display: inline-block;
+	text-align: center;
+	width: 23%;
+	margin-top: 0;
+
+}
+
+
+.dropdown-content{
+	margin-top: 0;
+	margin-bottom: 0;
+	display: none;
+	position: absolute;
+	background-color: ;
+	width: 90%;
+	box-shadow: ;
+	margin-left: 5%;
+
+
+}
+
+.dropdown{
+	position: relative;
+
+}
+
+.dropdown:hover  .dropdown-content{
+	display: block;
+
+}
+
+.dropdown-content a{
+	font-family: Amatic, Helvetica, Arial, cursive;
+	background-color: black;
+	color: white;
+	font-size: 25px;
+	padding: 10px 16px;
+	text-decoration: none;
+	display: block;
+}
+.nav {
+	padding: 0;
+	margin-bottom: 0; 
+	margin-top: 0;
+}
+
+ul {
+	background-color: black;
+}
+
+
+.transparent_b{
+
+		background: rgba(191,63,63,.5);
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 5%;
+		padding: 2%;
+		border: solid 6px black;
+		font-family: Lobster Two;
+		color: #ffff99;
+		font-size: 25px;
+
+}
+title {
+	color: red;
+}
+
+.about{
+	font-family: Amatic, Helvetica, Arial, cursive;
+	font-size: 4em;
+	color: white;
+}
+
+
+
+
+
+
+
