@@ -21,6 +21,14 @@
 	src: url(../Fonts/lobster-two/LobsterTwo-Regular.otf);
 }
 
+a{
+	color: yellow;
+}
+
+a:hover{
+	color: crimson;
+}
+
 body{
 
 	background-color: red;
@@ -113,7 +121,7 @@ ul {
 		padding: 2%;
 		border: solid 6px black;
 		font-family: Lobster Two;
-		color: #ffff99;
+		color: yellow;
 		font-size: 25px;
 
 }
@@ -126,6 +134,53 @@ title {
 	font-size: 4em;
 	color: white;
 }
+
+
+.transparent_1{
+
+		background: rgba(191,63,63,.5);
+		margin-left: 5%;
+		margin-right: 65%;
+		margin-top: 5%;
+		padding: 2%;
+		border: solid 6px black;
+		font-family: Lobster Two;
+		color: yellow;
+		font-size: 25px;
+
+
+}
+
+.transparent_2{
+
+		background: rgba(191,63,63,.5);
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-top: 5%;
+		padding: 2%;
+		border: solid 6px black;
+		font-family: Lobster Two;
+		color: yellow;
+		font-size: 25px;
+
+
+}
+
+
+.transparent_3{
+
+		background: rgba(191,63,63,.5);
+		margin-left: 65%;
+		margin-right: 5%;
+		margin-top: 5%;
+		padding: 2%;
+		border: solid 6px black;
+		font-family: Lobster Two;
+		color: yellow;
+		font-size: 25px;
+
+}
+
 
 
 
